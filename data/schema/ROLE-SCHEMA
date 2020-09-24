@@ -1,15 +1,14 @@
 schema:             ROLE-SCHEMA
-ref:                dn42.role
 key:                role            required   single    schema
 key:                nic-hdl         required   single    primary
-key:                mnt-by          required   multiple  lookup=dn42.mntner
-key:                org             optional   multiple  lookup=dn42.organisation
-key:                admin-c         optional   multiple  lookup=dn42.person
-key:                tech-c          optional   multiple  lookup=dn42.person
-key:                abuse-c         optional   multiple  lookup=dn42.person
-key:                abuse-mailbox   optional   multiple
+key:                mnt-by          required   multiple  > lookup=mntner
+key:                org             optional   multiple  > lookup=organisation
+key:                admin-c         optional   multiple  > lookup=nic-hdl
+key:                tech-c          optional   multiple  > lookup=nic-hdl
+key:                abuse-c         optional   multiple  > lookup=nic-hdl
+key:                abuse-mailbox   optional   multiple  > [email]
 key:                descr           optional   single
 key:                remarks         optional   multiple
-key:                source          required   single    lookup=dn42.registry
+key:                source          required   single    > lookup=registry
 mnt-by:             DN42-MNT
 source:             DN42

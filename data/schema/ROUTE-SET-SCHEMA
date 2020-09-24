@@ -1,14 +1,13 @@
 schema:             ROUTE-SET-SCHEMA
-ref:                dn42.route-set
-key:                route-set    required  single    primary schema
+key:                route-set    required  single    primary
 key:                descr        optional  single
-key:                mnt-by       required  multiple  lookup=dn42.mntner
+key:                mnt-by       required  multiple  > lookup=mntner
 key:                members      deprecate multiple
 key:                mp-members   optional  multiple
-key:                mbrs-by-ref  optional  multiple  lookup=dn42.mntner
-key:                admin-c      optional  multiple  lookup=dn42.person,dn42.role
-key:                tech-c       optional  multiple  lookup=dn42.person,dn42.role
+key:                mbrs-by-ref  optional  multiple  > lookup=mntner
+key:                admin-c      optional  multiple  > lookup=nic-hdl
+key:                tech-c       optional  multiple  > lookup=nic-hdl
 key:                remarks      optional  multiple
-key:                source       required  single    lookup=dn42.registry
+key:                source       required  single    > lookup=registry
 mnt-by:             DN42-MNT
 source:             DN42

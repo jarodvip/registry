@@ -1,27 +1,23 @@
 schema:             SCHEMA-SCHEMA
-ref:                dn42.schema
 primary-key:        inetnum  cidr
 primary-key:        inet6num cidr
 primary-key:        role     nic-hdl
 primary-key:        person   nic-hdl
 owners:             mntner
-key:                schema           required single   primary schema > [name]
-key:                ref              required single   > [schema]
-key:                primary-key      optional multiple > [schema] [key]
-key:                dir-name         optional single
-key:                owners           optional single   > [schema]
-key:                mnt-by           required multiple   lookup=dn42.mntner > [mntner]
-key:                remarks          optional multiple > [text]...
-key:                source           required single     lookup=dn42.registry
-key:                network-owner    optional multiple > [parent-schema]
-key:                key              required multiple > [key-name]
+key:                schema           required single    primary
+key:                mnt-by           required multiple  > lookup=mntner
+key:                remarks          optional multiple
+key:                source           required single    > lookup=registry
+key:                key              required multiple  > [key-name]
                     {required|optional|recommend|deprecate}
-                    {single|multiple} {primary|} {schema|}
-                    lookup=str '>' [spec]...
+                    {single|multiple} {primary|} '>' ...
 mnt-by:             DN42-MNT
 source:             DN42
 remarks:            # option descriptions
                     Attribute names must match /[a-zA-Z]([a-zA-Z0-9_\-]*[a-zA-Z0-9])?/.
++
+                    schema
+                    :    the first field name is the schema
 +
                     required
                     :    object required to have at least one
@@ -34,27 +30,23 @@ remarks:            # option descriptions
                     :    more than one of this type allowed
 +
                     primary
-                    :    use field as lookup key for lookup
+                    :    use alternate field for schema lookup
                     * only one allowed per schema
                     * does not allow newlines
 +
-                    schema
-                    :    use field name as the name of the schema
-                    * only one allowed per schema
-                    * does not allow newlines
-+
-                    lookup
-                    :    schema match to use for related record
-+
-                    \> option specs
-                    :    defines the option specifications for the key.
+                    \> argument specs
+                    :    defines the argument specifications for the key.
                     * must come last in option list
 +
-                    [label] string value. A positional string argument required.
-                    Text inside brackets represent a label for the string and must match the same rules as attribute names.
-                    If follwed by '...' values are gathered as an array.
+                    lookup=<primary>
+                    :    primary key lookup to use for related record
 +
-                    {enum1|enum2|} enumeration. One option in pipe('|') deliniation is allowed.
+                    [label] labeled value.
+                    Text inside brackets represent a label for the string and must match the same rules as attribute names.
+                    Optonally it can specify a type [label:aut-num]. if the parser does not support a type it defaults to string type.
++
+                    {enum1|enum2} enumeration. One option in comma(',') deliniation list is allowed.
                     If there is a trailing pipe it means the enum is optional. Enum values must match the same rules as attribute names.
+                    optionally the enum can be prefixed with a label {status:ALLOCATED|ASSIGNED}
 +
                     'literal' Literal value. literal text value which must not contain any whitespace or single quotes.

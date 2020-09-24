@@ -1,16 +1,14 @@
 schema:             DNS-SCHEMA
-ref:                dn42.domain
-dir-name:           dns
-key:                domain     required   single    primary schema
-key:                nserver    required   multiple  > [domain-name] [ip-addr]
+key:                dns        required   single    primary
+key:                nserver    required   multiple  > [dns] [addr]
 key:                descr      optional   single
-key:                mnt-by     required   multiple  lookup=dn42.mntner
-key:                admin-c    optional   multiple  lookup=dn42.person,dn42.role
-key:                tech-c     optional   multiple  lookup=dn42.person,dn42.role
-key:                org        optional   multiple  lookup=dn42.organisation
+key:                mnt-by     required   multiple  > lookup=mntner
+key:                admin-c    optional   multiple  > lookup=nic-hdl
+key:                tech-c     optional   multiple  > lookup=nic-hdl
+key:                org        optional   multiple  > lookup=organisation
 key:                country    optional   single
 key:                ds-rdata   optional   multiple
 key:                remarks    optional   multiple
-key:                source     required   single    lookup=dn42.registry
+key:                source     required   single    > lookup=registry
 mnt-by:             DN42-MNT
 source:             DN42

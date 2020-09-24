@@ -1,6 +1,5 @@
 schema:             TINC-KEY-SCHEMA
-ref:                dn42.tinc-key
-key:                tinc-key      required  single    primary schema
+key:                tinc-key      required  single    primary
 key:                tinc-host     required  single
 key:                tinc-file     required  single
 key:                descr         optional  single
@@ -9,9 +8,9 @@ key:                compression   optional  single
 key:                subnet        optional  multiple
 key:                tinc-address  optional  single
 key:                port          optional  single
-key:                admin-c       optional  multiple  lookup=dn42.person,dn42.role
-key:                tech-c        optional  multiple  lookup=dn42.person,dn42.role
-key:                mnt-by        required  multiple  lookup=dn42.mntner
-key:                source        required  single    lookup=dn42.registry
+key:                admin-c       optional  multiple  > lookup=nic-hdl
+key:                tech-c        optional  multiple  > lookup=nic-hdl
+key:                mnt-by        required  multiple  > lookup=mntner
+key:                source        required  single    > lookup=registry
 mnt-by:             DN42-MNT
 source:             DN42

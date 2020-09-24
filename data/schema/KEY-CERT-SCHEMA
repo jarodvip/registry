@@ -1,15 +1,14 @@
 schema:             KEY-CERT-SCHEMA
-ref:                dn42.key-cert
-key:                key-cert     required  single    primary schema
-key:                method       required  single    > {PGP|X509|MTN}
-key:                owner        required  multiple
+key:                key-cert     required  single    primary
+key:                method       required  single    > {type:PGP|X509|MTN|SSH}
+key:                owner        required  multiple  > [email]
 key:                fingerpr     required  single
 key:                certif       required  multiple
-key:                org          optional  multiple  lookup=dn42.organisation
+key:                org          optional  multiple  > lookup=organisation
 key:                remarks      optional  multiple
-key:                admin-c      optional  multiple  lookup=dn42.person,dn42.role
-key:                tech-c       optional  multiple  lookup=dn42.person,dn42.role
-key:                mnt-by       required  multiple  lookup=dn42.mntner
-key:                source       required  single
+key:                admin-c      optional  multiple  > lookup=nic-hdl
+key:                tech-c       optional  multiple  > lookup=nic-hdl
+key:                mnt-by       required  multiple  > lookup=mntner
+key:                source       required  single    > lookup=registry
 mnt-by:             DN42-MNT
 source:             DN42

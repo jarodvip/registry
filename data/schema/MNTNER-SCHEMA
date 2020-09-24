@@ -1,14 +1,17 @@
 schema:             MNTNER-SCHEMA
-ref:                dn42.mntner
-key:                mntner         required  single    primary schema
+key:                mntner         required  single    primary
 key:                descr          optional  single
-key:                mnt-by         required  multiple  lookup=dn42.mntner
-key:                admin-c        optional  multiple  lookup=dn42.person,dn42.role
-key:                tech-c         optional  multiple  lookup=dn42.person,dn42.role
-key:                auth           optional  multiple  > [method] [value]...
-key:                org            optional  multiple  lookup=dn42.organisation
-key:                abuse-mailbox  optional  single
+key:                mnt-by         required  multiple  > lookup=mntner
+key:                admin-c        optional  multiple  > lookup=nic-hdl
+key:                tech-c         optional  multiple  > lookup=nic-hdl
+key:                auth           optional  multiple  > {scheme-id:mail-from}                     [auth-info:email] |  # Email Method (not-implemented)
+                                                         {scheme-id:SSO}                           [auth-info:email] |  # SSO Method (not-implemented)
+                                                         {scheme-id:crypt-pw}                      [auth-info:str]   |  # Crypt password (depricated)
+                                                         {scheme-id:ssh-rsa|ssh-ecdsa|ssh-ed25519} [auth-info:str]   |  # SSH Method
+                                                         lookup=key-cert  # PGP Key-Cert Method
+key:                org            optional  multiple  > lookup=organisation
+key:                abuse-mailbox  optional  single    > [email]
 key:                remarks        optional  multiple
-key:                source         required  single    lookup=dn42.registry
+key:                source         required  single    > lookup=registry
 mnt-by:             DN42-MNT
 source:             DN42

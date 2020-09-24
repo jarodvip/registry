@@ -1,11 +1,11 @@
 schema:             REGISTRY-SCHEMA
-ref:                dn42.registry
-key:                registry   required  single    primary schema
+key:                registry   required  single    primary
 key:                url        required  multiple
 key:                descr      optional  multiple
-key:                mnt-by     required  multiple  lookup=dn42.mntner
-key:                admin-c    optional  multiple  lookup=dn42.person,dn42.role
-key:                tech-c     optional  multiple  lookup=dn42.person,dn42.role
-key:                source     required  single    lookup=dn42.registry
+key:                whois      optional  single
+key:                mnt-by     required  multiple  > lookup=mntner
+key:                admin-c    optional  multiple  > lookup=nic-hdl
+key:                tech-c     optional  multiple  > lookup=nic-hdl
+key:                source     required  single    > lookup=registry
 mnt-by:             DN42-MNT
 source:             DN42
