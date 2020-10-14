@@ -6,7 +6,9 @@ key:                admin-c        optional  multiple  > lookup=nic-hdl
 key:                tech-c         optional  multiple  > lookup=nic-hdl
 key:                auth           optional  multiple  > {scheme-id:mail-from}                     [auth-info:email] |  # Email Method (not-implemented)
                                                          {scheme-id:SSO}                           [auth-info:email] |  # SSO Method (not-implemented)
+                                                         {scheme-id:ed25519-pw}                    [auth-info:str]   |  # Ed25519 password (depricated)
                                                          {scheme-id:crypt-pw}                      [auth-info:str]   |  # Crypt password (depricated)
+                                                         {scheme-id:pgp-fingerprint}               [auth-info:str]   |  # PGP Fingerprint (depricated)
                                                          {scheme-id:ssh-rsa|ssh-ecdsa|ssh-ed25519} [auth-info:str]   |  # SSH Method
                                                          lookup=key-cert  # PGP Key-Cert Method
 key:                org            optional  multiple  > lookup=organisation
