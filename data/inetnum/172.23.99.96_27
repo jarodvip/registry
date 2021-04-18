@@ -1,0 +1,9 @@
+inetnum:            172.23.99.96 - 172.23.99.127
+cidr:               172.23.99.96/27
+netname:            ALEXS-NETWORK
+country:            RU
+admin-c:            ALEXS-DN42
+tech-c:             ALEXS-DN42
+mnt-by:             ALEXS-MNT
+status:             ASSIGNED
+source:             DN42
