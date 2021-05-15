@@ -1,0 +1,6 @@
+mntner:             IMWWW-MNT
+admin-c:            IMWWW-DN42
+tech-c:             IMWWW-DN42
+mnt-by:             IMWWW-MNT
+source:             DN42
+auth:               ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDXtnc95pWlrpSk5LaWLgctpfwXuLRJyhMbhHh55gvtABmZ+RfHnlZEfl0mMXudWjZQODmeF0eBfUNuWs9VU7Dp1XHlir75k5tj7PbTzy797REX+F8Jv5R0cg65cfA1UYk0R1MdXYoz8LBOn5DY5mY+PLum4He+H/BcY6rtXgP9OXLnIPlrxPnsiQMJTeCUnxYRw5/9Ef+OLL1P6eCZczvqMvWdIdLuDBPqyS+LGA1KsJPciMlPXN2vSkowI8vwxhBD0G+42xlAX0wM/21m6lj26nishDhwfA5GrWHEtPiqZ85FPqKfbIf9A0DET4RNaUO6cLULL5ZAU6SYGJDJE1Iv root@ubuntu

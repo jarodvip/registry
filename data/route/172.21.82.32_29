@@ -1,0 +1,5 @@
+route:              172.21.82.32/29
+descr:              Peer with me at imwww@live.com
+origin:             AS4242427626
+mnt-by:             LANTIAN-MNT
+source:             DN42
