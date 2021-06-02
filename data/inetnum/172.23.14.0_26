@@ -1,0 +1,8 @@
+inetnum:            172.23.14.0 - 172.23.14.63
+cidr:               172.23.14.0/26
+netname:            DEVILCHAN-NETWORK
+admin-c:            DEVILCHAN-DN42
+tech-c:             DEVILCHAN-DN42
+mnt-by:             DEVILCHAN-MNT
+status:             ASSIGNED
+source:             DN42
