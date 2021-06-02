@@ -1,0 +1,5 @@
+route6:             fd00:0:3c3::/48
+origin:             AS4242429421
+max-length:         48
+mnt-by:             DEVILCHAN-MNT
+source:             DN42
