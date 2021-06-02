@@ -1,5 +1,5 @@
-inet6num:           fd00:0000:03C3:0000:0000:0000:0000:0000 - fd00:0000:03c3:ffff:ffff:ffff:ffff:ffff
-cidr:               fd00:0:3c3::/48
+inet6num:           fd00:000b:000b:0000:0000:0000:0000:0000 - fd00:000b:000b:ffff:ffff:ffff:ffff:ffff
+cidr:               fd00:b:b::/48
 netname:            DEVILCHAN-NETWORK
 descr:              Network of DEVILCHAN
 country:            CHINA
