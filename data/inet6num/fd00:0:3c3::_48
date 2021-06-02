@@ -1,0 +1,10 @@
+inet6num:           fd00:0000:03C3:0000:0000:0000:0000:0000 - fd00:0000:03c3:ffff:ffff:ffff:ffff:ffff
+cidr:               fd00:0:3c3::/48
+netname:            DEVILCHAN-NETWORK
+descr:              Network of DEVILCHAN
+country:            CHINA
+admin-c:            DEVILCHAN-DN42
+tech-c:             DEVILCHAN-DN42
+mnt-by:             DEVILCHAN-MNT
+status:             ASSIGNED
+source:             DN42
