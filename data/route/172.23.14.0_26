@@ -1,0 +1,4 @@
+route:              172.23.14.0/26
+origin:             AS4242429421
+mnt-by:             DEVILCHAN-MNT
+source:             DN42
