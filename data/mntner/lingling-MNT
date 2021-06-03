@@ -1,0 +1,6 @@
+mntner:             lingling-MNT
+admin-c:            lingling-DN42
+tech-c:             lingling-DN42
+mnt-by:             lingling-MNT
+source:             DN42
+auth:               ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDPAxXTox72jqtMOFHBj1uf58bzmuAmhWjrwNGlMZW8c root@lingling 

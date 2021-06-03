@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 inetnum:            172.20.192.160 - 172.20.192.191
+=======
+inetnum:            172.20.192.160 - 172.20.192.190
+>>>>>>> 332776fce99660374443e09844bdb4057818eec9
 netname:            lingling-IPV4
 remarks:            Peer with me at 1077478963@qq.com
 descr:              Peer with me at 1077478963@qq.com
