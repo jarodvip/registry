@@ -1,0 +1,12 @@
+inet6num:           fdda:462c:ec57:0000:0000:0000:0000:0000 - fdda:462c:ec57:ffff:ffff:ffff:ffff:ffff
+netname:            lingling-IPV6
+descr:              Peer with me at 1077478963@qq.com
+country:            CN
+admin-c:            lingling-DN42
+tech-c:             lingling-DN42
+mnt-by:             lingling-MNT
+nserver:            ns1.lingling.dn42
+nserver:            ns2.lingling.dn42
+status:             ASSIGNED
+cidr:               fdda:462c:ec57::/48
+source:             DN42
