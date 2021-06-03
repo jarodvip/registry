@@ -1,0 +1,5 @@
+route:              172.20.192.160/27
+descr:              Peer with me at k7478963@qq.com
+origin:             AS4242421083
+mnt-by:             lingling-MNT
+source:             DN42
