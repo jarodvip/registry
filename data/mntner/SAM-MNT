@@ -1,0 +1,6 @@
+mntner:             SAM-MNT
+admin-c:            SAM-DN42
+tech-c:             SAM-DN42
+mnt-by:             SAM-MNT
+source:             DN42
+auth:               ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA0zB8JVFJ+Qz9ec1sCrvSjdCgYaCxG8zvRZchUc1edv zezhuyu@gmail.com

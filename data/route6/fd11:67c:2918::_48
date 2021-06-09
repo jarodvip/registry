@@ -1,0 +1,5 @@
+route6:             fd11:67c:2918::/48
+descr:              Peer with me at zezhuyu@gmail.com
+origin:             AS4242420249
+mnt-by:             SAM-MNT
+source:             DN42

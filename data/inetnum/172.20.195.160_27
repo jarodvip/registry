@@ -1,0 +1,11 @@
+inetnum:            172.20.195.160 - 172.20.195.191
+netname:            SAM-IPV4
+remarks:            Peer with me at zezhuyu@gmail.com
+descr:              Peer with me at zezhuyu@gmail.com
+country:            CA
+admin-c:            SAM-DN42
+tech-c:             SAM-DN42
+mnt-by:             SAM-MNT
+status:             ASSIGNED
+cidr:               172.20.195.160/27
+source:             DN42

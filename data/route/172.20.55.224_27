@@ -1,0 +1,5 @@
+route:              172.20.55.224/27
+descr:              Peer with me at zezhuyu@gmail.com
+origin:             AS4242420249
+mnt-by:             SAM-MNT
+source:             DN42

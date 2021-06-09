@@ -1,0 +1,10 @@
+inet6num:           fd11:067c:2918:0000:0000:0000:0000:0000 - fd11:067c:2918:ffff:ffff:ffff:ffff:ffff
+netname:            SAM-IPV6
+descr:              Peer with me at zezhuyu@gmail.com
+country:            CA
+admin-c:            SAM-DN42
+tech-c:             SAM-DN42
+mnt-by:             SAM-MNT
+status:             ASSIGNED
+cidr:               fd11:67c:2918::/48
+source:             DN42
