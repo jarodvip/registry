@@ -1,0 +1,6 @@
+mntner:             DEVILCHAN-MNT
+admin-c:            DEVILCHAN-DN42
+tech-c:             DEVILCHAN-DN42
+mnt-by:             DEVILCHAN-MNT
+auth:               ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD0mB9Dnk5Li1mSWDHeYr8tY0nQ0HRH80Kncd+4XAqGG4rATkhZE7/SZreHFS0F4RWVYMc+NnuwLTWcxcd/Tx79LKuZNuAvneHchuEoSroVZn1dltnNNQxSlQt1APGhQDPqHupIOSjtH/86CJ9V1AlnQ6RiS7s+ahQTah8h4tVui9y2F1QANUOb8kUMjFba7Qm3D7Rs5H1Pioxl4WXvd9lAKqcXuKh1xFzexN6eEG6zdhb7zeFe41DkuLhs3GUDLkwccz5y5ZeeKSOwKlIwJCZI5W/HTMyVbfYHJXrHcLm+a2LfzuMCIWN7eA9U9YLiN1x93795DN9XLfSIvo/rTT4zOFk3yFJNCaoX4+otKd/vRMKBNgcew2U/EO++lHe0rFhA0oU9RrwEqNZ/WEk3TSsg+FHk4CLHp1aHhDF2fwPkrZzmmZ+0LwlHGyHEpurYvBn6eNzBdm7DOv46/RqnzdyUOE3piKVpMb0AGmktuhrzmc0u/gXV3OnI0ZicbPp5V8c= root@kvm
+source:             DN42
