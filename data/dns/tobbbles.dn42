@@ -1,0 +1,8 @@
+domain:             tobbbles.dn42
+descr:              tobbbles.dn42
+admin-c:            TOBBBLES-DN42
+tech-c:             TOBBBLES-DN42
+mnt-by:             TOBBBLES-MNT
+nserver:            ns1.tobbbles.dn42 172.22.76.1
+nserver:            ns1.tobbbles.dn42 ::1
+source:             DN42

@@ -1,0 +1,10 @@
+inet6num:           fd34:4446:31b5:0000:0000:0000:0000:0000 - fd34:4446:31b5:ffff:ffff:ffff:ffff:ffff
+cidr:               fd34:4446:31b5::/48
+netname:            TOBBBLES-NET
+country:            DE
+admin-c:            TOBBBLES-DN42
+tech-c:             TOBBBLES-DN42
+mnt-by:             TOBBBLES-MNT
+status:             ASSIGNED
+nserver:            ns1.tobbbles.dn42
+source:             DN42

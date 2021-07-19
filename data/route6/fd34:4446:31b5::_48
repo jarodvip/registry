@@ -1,0 +1,5 @@
+route6:             fd34:4446:31b5::/48
+origin:             AS4242420922
+max-length:         48
+mnt-by:             TOBBBLES-MNT
+source:             DN42

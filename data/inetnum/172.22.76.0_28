@@ -1,0 +1,8 @@
+inetnum:            172.22.76.0 - 172.22.76.15
+cidr:               172.22.76.0/28
+netname:            TOBBBLES-NET
+admin-c:            TOBBBLES-DN42
+tech-c:             TOBBBLES-DN42
+mnt-by:             TOBBBLES-MNT
+status:             ASSIGNED
+source:             DN42
