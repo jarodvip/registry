@@ -1,5 +1,0 @@
-route6:             fdde:dead:beef::/48
-origin:             AS4242421555
-max-length:         48
-mnt-by:             WRMSR-MNT
-source:             DN42

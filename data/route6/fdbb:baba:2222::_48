@@ -1,5 +1,0 @@
-route6:             fdbb:baba:2222::/48
-origin:             AS4242422238
-max-length:         48
-mnt-by:             BESTFENG-MNT
-source:             DN42

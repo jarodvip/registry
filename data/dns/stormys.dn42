@@ -1,0 +1,7 @@
+domain:             stormys.dn42
+admin-c:            STORMYS-DN42
+tech-c:             STORMYS-DN42
+mnt-by:             STORMYS-MNT
+nserver:            ns1.stormys.dn42
+nserver:            ns2.stormys.dn42
+source:             DN42

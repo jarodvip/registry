@@ -1,7 +1,0 @@
-route6:             fd19:d101:719a::/48
-descr:              Geek Networks Route
-origin:             AS4242423850
-admin-c:            TONYLEE-DN42
-tech-c:             TONYLEE-DN42
-mnt-by:             TONYLEE-MNT
-source:             DN42
