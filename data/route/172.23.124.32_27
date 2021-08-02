@@ -1,0 +1,4 @@
+route:              172.23.124.32/27
+origin:             AS4242420911
+mnt-by:             JASONSREALM-MNT
+source:             DN42
