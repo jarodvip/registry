@@ -1,0 +1,7 @@
+mntner:             ELUSSO-MNT
+admin-c:            ELUSSO-DN42
+tech-c:             ELUSSO-DN42
+mnt-by:             ELUSSO-MNT
+auth:               pgp-fingerprint 3BFCAA508CD683DA64F62AB55C4F5EC2D366EAA5
+auth:               ssh-ed25519 pDLC9z84PgzuCnfKFWF4PlKKarXt51qFPjo5+zgxMFs dn42@elusso.fr
+source:             DN42

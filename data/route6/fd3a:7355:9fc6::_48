@@ -1,0 +1,5 @@
+route6:             fd3a:7355:9fc6::/48
+origin:             AS4242423587
+max-length:         48
+mnt-by:             ELUSSO-MNT
+source:             DN42

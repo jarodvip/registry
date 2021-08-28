@@ -1,0 +1,10 @@
+inet6num:           fd3a:7355:9fc6:0000:0000:0000:0000:0000 - fd3a:7355:9fc6:ffff:ffff:ffff:ffff:ffff
+cidr:               fd3a:7355:9fc6::/48
+netname:            ELUSSO-NETWORK
+descr:              Network of ELUSSO
+country:            FR
+admin-c:            ELUSSO-DN42
+tech-c:             ELUSSO-DN42
+mnt-by:             ELUSSO-MNT
+status:             ASSIGNED
+source:             DN42

@@ -1,0 +1,7 @@
+domain:             elusso.dn42
+admin-c:            ELUSSO-DN42
+tech-c:             ELUSSO-DN42
+mnt-by:             ELUSSO-MNT
+nserver:            ns1.elusso.dn42 fd3a:7355:9fc6::50
+nserver:            ns2.elusso.dn42 fd35:7355:9fc6::51
+source:             DN42
