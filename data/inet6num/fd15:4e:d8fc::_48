@@ -1,0 +1,10 @@
+inet6num:           fd15:004e:d8fc:0000:0000:0000:0000:0000 - fd15:004e:d8fc:ffff:ffff:ffff:ffff:ffff
+cidr:               fd15:4e:d8fc::/48
+netname:            GEIS-NETWORK
+descr:              Network of Geis
+country:            US
+admin-c:            GEIS-DN42
+tech-c:             GEIS-DN42
+mnt-by:             GEIS-MNT
+status:             ASSIGNED
+source:             DN42

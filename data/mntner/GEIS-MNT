@@ -1,0 +1,6 @@
+mntner:             GEIS-MNT
+admin-c:            GEIS-DN42
+tech-c:             GEIS-DN42
+mnt-by:             GEIS-MNT
+auth:               pgp-fingerprint 6E6442F5DC6EBD644539AFBFA86822EB088A78B1
+source:             DN42

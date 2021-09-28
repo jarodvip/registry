@@ -1,0 +1,5 @@
+route6:             fd15:4e:d8fc::/48
+origin:             AS4242423171
+max-length:         48
+mnt-by:             GEIS-MNT
+source:             DN42
