@@ -1,0 +1,5 @@
+route:              172.20.210.64/26
+descr:              Peer with me at kmsbismarck380mm@gmail.com
+origin:             AS4242422215
+mnt-by:             KMSBISMARCK-MNT
+source:             DN42
