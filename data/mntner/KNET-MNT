@@ -1,0 +1,6 @@
+mntner:             KNET-MNT
+admin-c:            KNET-DN42
+tech-c:             KNET-DN42
+mnt-by:             KNET-MNT
+auth:               pgp-fingerprint 8921193B0528EBA7E64BE801FA4583C65E338FB3
+source:             DN42

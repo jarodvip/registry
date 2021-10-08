@@ -1,0 +1,9 @@
+inet6num:           fd5a:cd52:4f98:0000:0000:0000:0000:0000 - fd5a:cd52:4f98:ffff:ffff:ffff:ffff:ffff
+cidr:               fd5a:cd52:4f98::/48
+netname:            KNET-NET-V6-1
+country:            NL
+admin-c:            KNET-DN42
+tech-c:             KNET-DN42
+mnt-by:             KNET-MNT
+status:             ASSIGNED
+source:             DN42

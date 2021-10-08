@@ -1,0 +1,9 @@
+inetnum:            172.23.43.0 - 172.23.43.15
+cidr:               172.23.43.0/28
+netname:            KNET-NET-V4-1
+country:            NL
+admin-c:            KNET-DN42
+tech-c:             KNET-DN42
+mnt-by:             KNET-MNT
+status:             ASSIGNED
+source:             DN42

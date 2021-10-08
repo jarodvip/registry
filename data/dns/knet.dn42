@@ -1,0 +1,8 @@
+domain:             knet.dn42
+descr:              knet.dn42 http://knet.dn42/
+admin-c:            KNET-DN42
+tech-c:             KNET-DN42
+mnt-by:             KNET-MNT
+nserver:            ns1.knet.dn42 172.23.43.0
+nserver:            ns1.knet.dn42 fd5a:cd52:4f98:53::0
+source:             DN42

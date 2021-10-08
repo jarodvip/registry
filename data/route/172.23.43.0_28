@@ -1,0 +1,4 @@
+route:              172.23.43.0/28
+origin:             AS4242420816
+mnt-by:             KNET-MNT
+source:             DN42
