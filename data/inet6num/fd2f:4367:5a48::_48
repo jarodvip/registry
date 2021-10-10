@@ -1,0 +1,10 @@
+inet6num:           fd2f:4367:5a48:0000:0000:0000:0000:0000 - fd2f:4367:5a48:ffff:ffff:ffff:ffff:ffff
+cidr:               fd2f:4367:5a48::/48
+netname:            RMYMRTIN-NETWORK
+descr:              Network of RMYMRTIN
+country:            FR
+admin-c:            RMYMRTIN-DN42
+tech-c:             RMYMRTIN-DN42
+mnt-by:             RMYMRTIN-MNT
+status:             ASSIGNED
+source:             DN42

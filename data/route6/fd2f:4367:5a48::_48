@@ -1,0 +1,5 @@
+route6:             fd2f:4367:5a48::/48
+origin:             AS4242420861
+max-length:         48
+mnt-by:             RMYMRTIN-MNT
+source:             DN42

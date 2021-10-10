@@ -1,0 +1,8 @@
+inetnum:            172.20.135.224 - 172.20.135.255
+cidr:               172.20.135.224/27
+netname:            RMYMRTIN-NETWORK
+admin-c:            RMYMRTIN-DN42
+tech-c:             RMYMRTIN-DN42
+mnt-by:             RMYMRTIN-MNT
+status:             ASSIGNED
+source:             DN42
