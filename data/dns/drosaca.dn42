@@ -1,0 +1,10 @@
+domain:             drosaca.dn42
+admin-c:            DROSACA-DN42
+tech-c:             DROSACA-DN42
+mnt-by:             DROSACA-MNT
+nserver:            ns1.drosaca.dn42 172.23.32.97
+nserver:            ns1.drosaca.dn42 fd97:75af:dcc:53::1
+nserver:            ns2.drosaca.dn42 172.23.32.98
+nserver:            ns2.drosaca.dn42 fd97:75af:dcc:53::2
+org:                ORG-DROSACACORP
+source:             DN42

@@ -1,0 +1,5 @@
+route6:             fd97:75af:dcc::/48
+origin:             AS4242423456
+max-length:         48
+mnt-by:             DROSACA-MNT
+source:             DN42

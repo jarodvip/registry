@@ -1,7 +1,9 @@
-aut-num:            AS4242423456
-as-name:            AS-DROSACA-DN42
+inetnum:            172.23.32.96 - 172.23.32.127
+cidr:               172.23.32.96/27
+netname:            DROSACA-NETWORK
 admin-c:            DROSACA-DN42
 tech-c:             DROSACA-DN42
 mnt-by:             DROSACA-MNT
 org:                ORG-DROSACACORP
+status:             ASSIGNED
 source:             DN42

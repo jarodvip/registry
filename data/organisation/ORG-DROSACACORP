@@ -1,7 +1,7 @@
-aut-num:            AS4242423456
-as-name:            AS-DROSACA-DN42
+organisation:       ORG-DROSACACORP
+org-name:           DROSACA CORPORATION
 admin-c:            DROSACA-DN42
 tech-c:             DROSACA-DN42
 mnt-by:             DROSACA-MNT
-org:                ORG-DROSACACORP
 source:             DN42
+www:                https://drosaca.org

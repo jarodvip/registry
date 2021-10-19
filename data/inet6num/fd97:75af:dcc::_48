@@ -1,0 +1,11 @@
+inet6num:           fd97:75af:0dcc:0000:0000:0000:0000:0000 - fd97:75af:0dcc:ffff:ffff:ffff:ffff:ffff
+cidr:               fd97:75af:dcc::/48
+netname:            DROSACA-NETWORK
+descr:              Network of DROSACA
+country:            FR
+admin-c:            DROSACA-DN42
+tech-c:             DROSACA-DN42
+mnt-by:             DROSACA-MNT
+org:                ORG-DROSACACORP
+status:             ASSIGNED
+source:             DN42
