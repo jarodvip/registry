@@ -1,0 +1,10 @@
+inet6num:           fd71:67a2:0b7f:b846:0000:0000:0000:0000 - fd71:67a2:0b7f:b846:ffff:ffff:ffff:ffff
+cidr:               fd71:67a2:0b7f:b846::/64
+netname:            STARSTORM-NETWORK
+descr:              Network of starstorm
+country:            US
+admin-c:            STARSTORM-DN42
+tech-c:             STARSTORM-DN42
+mnt-by:             STARSTORM-MNT
+status:             ASSIGNED
+source:             DN42

@@ -1,0 +1,7 @@
+aut-num:            AS4242420922
+as-name:            STARSTORM-AS
+descr:              Starstorm AS
+admin-c:            STARSTORM-DN42
+tech-c:             STARSTORM-DN42
+mnt-by:             STARSTORM-MNT
+source:             DN42

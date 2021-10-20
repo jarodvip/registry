@@ -1,0 +1,9 @@
+inetnum:            172.20.133.0 - 172.20.133.7
+cidr:               172.20.133.0/29
+netname:            STARSTORM-V4-NET-1
+country:            GB
+admin-c:            STARSTORM-DN42
+tech-c:             STARSTORM-DN42
+mnt-by:             STARSTORM-MNT
+status:             ASSIGNED
+source:             DN42

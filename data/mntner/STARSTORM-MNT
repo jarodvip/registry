@@ -1,0 +1,6 @@
+mntner:             STARSTORM-MNT
+admin-c:            STARSTORM-DN42
+tech-c:             STARSTORM-DN42
+mnt-by:             STARSTORM-MNT
+source:             DN42
+auth:               pgp-fingerprint B247277C566BC2C143158758024C15F0937834AC
