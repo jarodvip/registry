@@ -1,0 +1,7 @@
+aut-num:            AS4242420607
+as-name:            OOCOCOCO-AS
+descr:              OOCOCOCO 's Main network, open to peering.
+admin-c:            OOCOCOCO-DN42
+tech-c:             OOCOCOCO-DN42
+mnt-by:             OOCOCOCO-MNT
+source:             DN42

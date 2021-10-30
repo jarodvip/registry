@@ -1,0 +1,8 @@
+inetnum:            172.22.67.64 - 172.22.67.95
+cidr:               172.22.67.64/27
+netname:            OOCOCOCO-IPV4
+admin-c:            OOCOCOCO-DN42
+tech-c:             OOCOCOCO-DN42
+mnt-by:             OOCOCOCO-MNT
+status:             ASSIGNED
+source:             DN42

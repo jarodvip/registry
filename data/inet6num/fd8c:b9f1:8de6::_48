@@ -1,0 +1,10 @@
+inet6num:           fd8c:b9f1:8de6:0000:0000:0000:0000:0000 - fd8c:b9f1:8de6:ffff:ffff:ffff:ffff:ffff
+netname:            OOCOCOCO-IPV6
+descr:              OOCOCOCO's IP space
+country:            CN
+admin-c:            OOCOCOCO-DN42
+tech-c:             OOCOCOCO-DN42
+mnt-by:             OOCOCOCO-MNT
+status:             ASSIGNED
+cidr:               fd8c:b9f1:8de6::/48
+source:             DN42
