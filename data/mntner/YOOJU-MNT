@@ -1,0 +1,7 @@
+mntner:             YOOJU-MNT
+admin-c:            YOOJU-DN42
+tech-c:             YOOJU-DN42
+mnt-by:             YOOJU-MNT
+source:             DN42
+auth:               ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCn6un0DVvIn1XdLN2kwWtLH3NlxIib4vGFoXA5sEoVIAPPQtey/sMMy9CtxVwFhUagY/M9uOGfl3KIryJWZ4oIymqz+1ztIK8nckgFgSgTCvwsaV4Ba78kykMJVwSKS5huy2ub2L3POywMismKi6s8okpJM2c9QvWh00zn56BY6/ka51EgAnZlrgfMhQTV7uJJbjkN34hRpQiZU9iKHxPbzXliCPryt464bM4VqCeEV76X9qksrI7DJlxSRw1JAkNq6EQabK49qKMwIAUdWx08qcGu8G6+XFlAAKCA/FVOOu0DfoLtGea/N11iw5b9dfg9HcnXQtxe7v1hNjMP/svFnbx+qvM1aN+cTMpsd3wZ5uL/Pk4jq7UbP8K0ljz3Q9ymEyU0zaNJSzg6LVNIDMb/2YP5PGqYAYFFutA+HxFMnrZUEL0b578xRcngv/niXZbC05WwW/i4iL4xjVC8ATD/7us7l/N0CmYnj4ogH9GbRz1wsrFYu/YhGupOyfOk8jOyzUhLyVdUN+lX2apWSypXY4eIn0VDqrQooQ5kcBMAUqAlUBUzi9LfG9gsEfeckmCFXfyEnwiX5JVk2pisRdsCk1ND52TsthvW2iQRxTICCcKg5+g1VGELUK6pA5giGdcjpZTEnj0v1Raqx7VoRvEgdpwWFHtO9s2lS9PJzfNr2w== root@vultr.guest
+auth:               pgp-fingerprint 73513CFCF19ADB13

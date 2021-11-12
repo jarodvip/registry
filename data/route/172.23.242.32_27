@@ -1,0 +1,5 @@
+route:              172.23.242.32/27
+descr:              Peer with me at admin@lspisp.com
+origin:             AS4242420363
+mnt-by:             YOOJU-MNT
+source:             DN42

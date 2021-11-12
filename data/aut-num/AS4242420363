@@ -1,0 +1,7 @@
+aut-num:            AS4242420363
+as-name:            YOOJU-AS
+descr:              Peer with me at admin@lspisp.com
+admin-c:            YOOJU-DN42
+tech-c:             YOOJU-DN42
+mnt-by:             YOOJU-MNT
+source:             DN42
