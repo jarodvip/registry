@@ -1,0 +1,6 @@
+mntner:		CAINE-MNT
+admin-c:	CAINE-DN42
+tech-c:		CAINE-DN42
+mnt-by:		CAINE-MNT
+source:		DN42
+auth:		ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKpIon/TuCXjV0wIIjby1BHEwHnesV9sjPTErzXvoQFb cainelee@gmail.com

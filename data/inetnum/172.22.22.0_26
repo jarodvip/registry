@@ -1,0 +1,13 @@
+inetnum:            172.22.22.0 - 172.22.22.621
+netname:            CAINE-IPV4
+remarks:            Peer with me at cainelee@hotmail.com
+descr:              Peer with me at cainelee@hotmail.com
+country:            HK
+admin-c:            CAINE-DN42
+tech-c:             CAINE-DN42
+mnt-by:             CAINEN-MNT
+nserver:            ns1.caine.dn42
+nserver:            ns2.caine.dn42
+status:             ASSIGNED
+cidr:               172.22.22.0/26
+source:             DN42

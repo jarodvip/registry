@@ -1,0 +1,5 @@
+route:              172.22.22.0/26
+descr:              Peer with me at cainelee0@hotmail.com
+origin:             AS4242421168
+mnt-by:             CAINE-MNT
+source:             DN42
